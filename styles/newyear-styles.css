@@ -218,26 +218,237 @@ section {
 
 /* New Best Offer  */
 
-.new-best-offer{
+.new-best-offer {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
-    margin: 120px 140px;;
+    justify-content: space-between;
+    margin: 120px 140px;
+    ;
 }
 
 
-.best-offer-subtitle{
-color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-bottom: 16px;
+.best-offer-subtitle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
 }
 
-.best-offer-title{
+.best-offer-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.best-offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+
+}
+
+.best-offer-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49px;
+}
+
+.best-offer-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.best-offer-description-2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+    width: 276px;
+}
+
+/* Holiday Sale Styles */
+
+.holiday-sale {
+    margin: 120px 140px;
+}
+
+.holiday-sale-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.caintainer-subtitle {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.holiday-sale-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.holiday-sale-red {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-sale-des {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.imager {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+.img-1 {
+    width: 600px;
+    position: relative;
+    z-index: 3;
+    left: -240px;
+}
+
+.imager img:last-child {
+    position: absolute;
+    right: -320px;
+    top: 150px;
+    width: 206.841px;
+    height: 206.841px;
+    z-index: 0;
+}
+
+.img-2 {
+    width: 100%;
+    margin-top: -120px;
+    z-index: 1
+}
+
+/* best gifts */
+.best-gifts {
+    margin: 120px 140px;
+    
+}
+
+.red-subtitle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.best-gifts-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.best-gifts-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.best-gifts-images {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* width: 100%; */
+}
+
+.img-column {
+    display: flex;
+    gap: 24px;
+}
+
+.baler {
+    width: 424px;
+    height: 450px;
+}
+
+/* Newsletter styles */
+
+.newsletter {
+    margin: 120px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+}
+
+.newsletter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 212px;
+    
+}
+.email-icon{
+    width: 150px;
+height: 150px;
+margin-bottom: 40px;
+}
+.newsletter-title{
 color: #070211;
+text-align: center;
 font-family: Merriweather;
 font-size: 48px;
 font-style: normal;
@@ -246,44 +457,45 @@ line-height: normal;
 text-transform: capitalize;
 margin-bottom: 22px;
 }
-
-.best-offer-description{
+.newsletter-des{
 color: rgba(7, 2, 17, 0.60);
+text-align: center;
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px;
-width: 393px;
+margin-bottom: 48px;
+}
+.button-for-input{
+display: flex;
+height: 72px;
+
+
 
 }
+.email-input{
+border-radius: 50px 0px 0px 50px;
+background: #FFF;
+border: none;
+width: 438px;
 
-.best-offer-img{
-border-radius: 463px;
-border: 15px solid #F00;
-padding: 49px;
-}
-
-.best-offer-year{
-color: #F00;
+color: rgba(7, 2, 17, 0.30);
+text-align: left;
 font-family: Inter;
-font-size: 48px;
+font-size: 18px;
 font-style: normal;
-font-weight: 700;
+font-weight: 400;
 line-height: normal;
-margin-bottom: 16px;
+padding-left: 30px;
+
+}
+.btn-4{
+border-radius: 0 50px 50px 0;
+background: #F00;
+border: none;
+width: 210px;
 }
 
-.best-offer-description-2{
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-margin-bottom: 43px;
-width: 276px;
-}
-
-/* Holiday Sale Styles */
+/* Footer styles */
 
