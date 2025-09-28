@@ -215,3 +215,75 @@ section {
     line-height: normal;
     text-transform: uppercase;
 }
+
+/* New Best Offer  */
+
+.new-best-offer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 120px 140px;;
+}
+
+
+.best-offer-subtitle{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.best-offer-title{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+
+.best-offer-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 393px;
+
+}
+
+.best-offer-img{
+border-radius: 463px;
+border: 15px solid #F00;
+padding: 49px;
+}
+
+.best-offer-year{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.best-offer-description-2{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 43px;
+width: 276px;
+}
+
+/* Holiday Sale Styles */
+
