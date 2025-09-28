@@ -3,6 +3,7 @@
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 section {
@@ -396,9 +397,10 @@ height: 364.844px;
 /* best gifts */
 .best-gifts {
     margin: 120px 100px;
-
 }
-
+.full-container {
+    width: 100%;
+}
 .red-subtitle {
     color: #F00;
     font-family: Inter;
@@ -434,7 +436,6 @@ height: 364.844px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    /* width: 100%; */
 }
 
 .img-column {
@@ -442,10 +443,7 @@ height: 364.844px;
     gap: 24px;
 }
 
-.baler {
-    width: 424px;
-    height: 450px;
-}
+
 
 /* Newsletter styles */
 
@@ -530,14 +528,14 @@ height: 364.844px;
 /* Footer styles */
 footer {
     background: #070211;
-    height: 609px;
+    min-height: 609px;
 }
 
 .footer-container {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin: 0px 100px;
+    margin: 0px 100px 0px 100px;
 }
 
 .footer-text {
